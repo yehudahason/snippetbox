@@ -1,30 +1,30 @@
-### Final project of 'Let's Go' by Alex Edwards.
+# Final Project of 'Let's Go' by Alex Edwards.
 
 !['Let's Go' by Alex Edwards.](./Let'sGo.png)
 
-#### Set up mysql db
+#### Set up MySql DB -
 
 ```
 docker compose up -d
 ```
 
-#### To setup db tables run sql file -
+#### To setup DB tables run sql file -
 
 /internal/models/testdata/setup.sql
 
-#### To delete all db tables run sql file -
+#### To delete all DB tables run SQL file -
 
 /internal/models/testdata/teardown.sql
 
-#### Start server
+#### Start server -
 
 ```
 go run ./cmd/web
 ```
 
-#### open server in browser .
+#### open server in browser -
 
-pay attention that is https server .
+pay attention that is https server
 
 ```
 https://localhost:4000/
