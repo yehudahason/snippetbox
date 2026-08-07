@@ -1,4 +1,4 @@
-# Final Project of 'Let's Go' by Alex Edwards.
+# Final Project of "Let's Go!" by Alex Edwards.
 
 !['Let's Go' by Alex Edwards.](./Let'sGo.png)
 
