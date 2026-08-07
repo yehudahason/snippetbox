@@ -2,13 +2,15 @@
 
 !['Let's Go' by Alex Edwards.](./Let'sGo.png)
 
-#### Set up MySql DB -
+#### Excellent book to get started with web programming in Go .
+
+#### Set up MySQL DB -
 
 ```
 docker compose up -d
 ```
 
-#### To setup DB tables run sql file -
+#### To setup DB tables run SQL file -
 
 /internal/models/testdata/setup.sql
 
