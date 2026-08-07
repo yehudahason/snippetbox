@@ -1,5 +1,7 @@
 ### Final project of 'Let's Go' by Alex Edwards.
 
+!['Let's Go' by Alex Edwards.](./Let'sGo.png)
+
 #### Set up mysql db
 
 ```
