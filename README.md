@@ -10,7 +10,7 @@
 docker compose up -d
 ```
 
-#### To delete all DB tables run SQL file -
+#### To delete DB -
 
 docker compose down -v
 
@@ -28,6 +28,6 @@ pay attention that is https server
 https://localhost:4040/
 ```
 
-#### My live example
+#### My live site -
 
 https://lets.pitron-halomot.org/
