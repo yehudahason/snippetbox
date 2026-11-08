@@ -10,13 +10,9 @@
 docker compose up -d
 ```
 
-#### To setup DB tables run SQL file -
-
-/internal/models/testdata/setup.sql
-
 #### To delete all DB tables run SQL file -
 
-/internal/models/testdata/teardown.sql
+docker compose down -v
 
 #### Start server -
 
@@ -29,5 +25,5 @@ go run ./cmd/web
 pay attention that is https server
 
 ```
-https://localhost:4000/
+https://localhost:4040/
 ```
