@@ -28,6 +28,12 @@ pay attention that is https server
 https://localhost:4000/
 ```
 
-#### My live site -
+#### Run all Tests
+
+```
+go test -v -count=1 ./...
+```
+
+#### My live site sample
 
 https://lets.pitron-halomot.org/
