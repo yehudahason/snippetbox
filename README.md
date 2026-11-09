@@ -25,7 +25,7 @@ go run ./cmd/web
 pay attention that is https server
 
 ```
-https://localhost:4040/
+https://localhost:4000/
 ```
 
 #### My live site -

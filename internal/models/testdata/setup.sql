@@ -16,18 +16,18 @@ CREATE TABLE users (
     created DATETIME NOT NULL
 );
 
-ALTER TABLE users ADD CONSTRAINT users_uc_email UNIQUE (email);
+ALTER TABLE users
+ADD CONSTRAINT users_uc_email UNIQUE (email);
 
-INSERT INTO users (name, email, hashed_password, created) VALUES (
+INSERT INTO users (
+    name,
+    email,
+    hashed_password,
+    created
+)
+VALUES (
     'Alice Jones',
     'alice@example.com',
     '$2a$12$NuTjWXm3KKntReFwyBVHyuf/to.HEwTy.eS206TNfkGfr6HzGJSWG',
     '2022-01-01 09:18:24'
 );
-CREATE TABLE sessions (
-    token CHAR(43) PRIMARY KEY,
-    data BLOB NOT NULL,
-    expiry TIMESTAMP(6) NOT NULL
-);
-
-CREATE INDEX sessions_expiry_idx ON sessions (expiry);
