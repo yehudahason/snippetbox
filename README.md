@@ -12,7 +12,10 @@ docker compose up -d
 
 #### To delete DB -
 
+```
+
 docker compose down -v
+```
 
 #### Start server -
 
